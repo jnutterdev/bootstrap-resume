@@ -24,6 +24,10 @@ body {
     padding: 10px 20px;
 }
 
+.jumbotron {
+    background-color: #6E9FA5;
+}
+
 .container {
     padding: 20px 10px;
 }
@@ -45,4 +49,9 @@ footer a {
 
 footer a:hover {
     color: #5C8F94;
+}
+
+h1.display-4 {
+    color: white;
+    font-weight: bold;
 }
