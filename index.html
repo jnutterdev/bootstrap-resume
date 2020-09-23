@@ -20,7 +20,7 @@
                 <a class="nav-link active" href="#">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Contact</a>
+                <a class="nav-link" href="#contact" tabindex="-1" aria-disabled="true">Contact</a>
             </li>
         </ul>
 
@@ -28,23 +28,34 @@
         <!-- MAIN JUMBOTRON -->
         <div class="jumbotron jumbotron-fluid">
             <div class="container">
-                <h1 class="display-4">Fluid jumbotron</h1>
-                <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+                <h1 class="display-4">Hi, I'm John Nutter!</h1>
+                <p class="lead">I'm an aspiring full stack developer. Currently learning the MERN stack, but have a softspot for python/django.</p>
             </div>
         </div>
 
         <!-- BODY CONTENT -->
+        <div class="container">
+            <div class="media">
+                <i class="fas fa-laptop-code"></i>
+                <div class="media-body">
+                    <h5 class="mt-0">Languages</h5>
+                    <ul>
+                        <li>PHP</li>
+                        <li>MySQL</li>
+                        <li>Python/Django</li>
 
-        <div class="media">
-            <i class="fas fa-laptop-code"></i>
-            <div class="media-body">
-                <h5 class="mt-0">Skills</h5>
-                <ul>
-                    <li>PHP</li>
-                    <li>MySQL</li>
-                    <li>Python/Django</li>
-                    <li>Jekyll</li>
-                </ul>
+                    </ul>
+                </div>
+                <i class="fas fa-cogs"></i>
+                <div class="media-body">
+                    <h5 class="mt-0">Technologies</h5>
+                    <ul>
+                        <li>Jekyll</li>
+                        <li>GitHub</li>
+                        <li>Docker</li>
+                        <li>Puppet</li>
+                    </ul>
+                </div>
             </div>
         </div>
         <div class="media">
@@ -52,7 +63,7 @@
             <h5 class="mt-0">Projects</h5>
         </div>
 
-        <div class="card-group">
+        <div class="card-deck">
             <div class="card">
                 <img class="card-img-top" src="img/jn.png" alt="Card image cap">
                 <div class="card-body">
@@ -73,15 +84,43 @@
                 </div>
             </div>
         </div>
+    </div>
 
+    <div class="container simple-contact-form">
+        <div class="media">
+            <i class="fas fa-envelope"></i>
+            <h5 class="mt-0">Say hi</h5>
+        </div>
+        <form action="https://formkeep.com/f/217833c01f57" accept-charset="UTF-8" enctype="multipart/form-data" method="POST">
+            <div class="form-group">
+                <label for="exampleFormControlInput1">Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">Message</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <button>Submit</button>
+        </form>
     </div>
 
 
-    <!-- FOOTER LINKS -->
+    <!-- FOOTER  -->
+    <!-- Footer -->
+    <footer class="page-footer">
 
+        <div class="footer-copyright text-center py-3">&copy; 2020
+            <a href="https://www.jnutterdev.com">jnutterdev.com</a>
+        </div>
 
-
-
+        <div class="social text-center">
+            <a href="https://github.com/jnutterdev"><i class="fab fa-github"></i></a>
+            <a href="https://twitter.com/terribledevice"><i class="fab fa-twitter"></i></i></a>
+            <a href="mailto:hello@jnutterdev.com"><i class="fas fa-envelope"></i></a>
+        </div>
+    </footer>
+    <!-- Footer -->
 
     </div>
 
