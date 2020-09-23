@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>John Nutter resume</title>
+    <link rel="stylesheet" href="css/all.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="main.css">
 </head>
@@ -14,7 +15,14 @@
     <div class="container">
         <!-- HEADER BRAND LOGO NAVBAR -->
 
-
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Contact</a>
+            </li>
+        </ul>
 
 
         <!-- MAIN JUMBOTRON -->
@@ -27,7 +35,52 @@
 
         <!-- BODY CONTENT -->
 
-        <!-- FOOTER LINKS -->
+        <div class="media">
+            <i class="fas fa-laptop-code"></i>
+            <div class="media-body">
+                <h5 class="mt-0">Skills</h5>
+                <ul>
+                    <li>PHP</li>
+                    <li>MySQL</li>
+                    <li>Python/Django</li>
+                    <li>Jekyll</li>
+                </ul>
+            </div>
+        </div>
+        <div class="media">
+            <i class="fas fa-project-diagram"></i>
+            <h5 class="mt-0">Projects</h5>
+        </div>
+
+        <div class="card-group">
+            <div class="card">
+                <img class="card-img-top" src="img/jn.png" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title"><a href="https://www.jnutterdev.com">jnutterdev</a></h5>
+                    <p class="card-text">Simple site created with Jekyll for personal projects.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img class="card-img-top" src="img/td1.png" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">
+                        <a href="https://www.terribledevice.com"></a>
+                    </h5>
+                    <p class="card-text">Another personal site covering anything music production related.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- FOOTER LINKS -->
+
+
+
 
 
     </div>
