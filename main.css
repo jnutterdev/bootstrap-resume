@@ -1,25 +1,48 @@
-    .fa,
-    .fas {
-        font-family: 'Font Awesome 5 Free';
-        font-weight: 900;
-        line-height: 1.5;
-        padding-right: 10px;
-    }
-    
-    .social {
-        display: block;
-        margin: 0 auto;
-        width: 100%;
-    }
-    
-    footer {
-        margin-bottom: 30px;
-    }
-    
-    .container {
-        padding: 0 10px;
-    }
-    
-    .simple-contact-form {
-        margin: 50px auto;
-    }
+body {
+    content: "";
+    background-image: url('img/geometry.png');
+}
+
+.fa,
+.fas {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    line-height: 1.5;
+    padding-right: 10px;
+}
+
+.social {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.jumbo-spacing,
+.media-spacing,
+.form-spacing,
+.card-spacing {
+    padding: 10px 20px;
+}
+
+.container {
+    padding: 20px 10px;
+}
+
+.form-spacing {
+    height: 500px;
+}
+
+footer {
+    background-color: #3E4D59;
+    height: 120px;
+    padding-top: 20px;
+    color: white;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    color: #5C8F94;
+}
